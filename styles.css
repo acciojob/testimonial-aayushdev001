@@ -1,8 +1,33 @@
 /*  your css code here. If applicable */
-body
+*{
+	font-size: 20px;;
+}
+h1
 {
+	font-size: 35px;
+
+}
+body{
+	margin-left: 73px;
 	background-color: #f5f5f5;
 }
 .quote{
+	border-style: solid;
+	border-width: 2px;
+	border-color:rgb(196, 194, 194);
+	margin: 12px;;
 	background-color: white;
+	width: 80%;
+}
+.author {
+	background-color: white;
+	display: flex;
+	text-align: right;
+	flex-direction: row-reverse;
+	margin-right: 8px;
+	font-style: italic;
+}
+.text {
+	padding-left:12px;
+	padding-top: 12px;;
 }
